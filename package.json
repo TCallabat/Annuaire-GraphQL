@@ -1,0 +1,23 @@
+{
+	"name": "annuaire",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node app.js",
+		"dev": "nodemon app.js",
+		"initDB": "node scripts/initDatabase.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"mongoose": "^5.9.25",
+		"apollo-server-express": "^2.16.0",
+		"csvtojson": "^2.0.10",
+		"mongodb": "^3.5.9",
+		"graphql": "^15.3.0"
+	}
+}
