@@ -27,7 +27,7 @@ npm install
 npm initDB 
 ```
 
-4) Start concurrently front-end and back-end
+4) Start back-end
 ```
 npm start
 ```
